@@ -58,4 +58,3 @@ void ConfigurationDialog::checkInput()
     m_ui.buttonBox->button( QDialogButtonBox::Ok )->setEnabled( ok );
 }
 
-#include "ConfigurationDialog.moc"

@@ -11,7 +11,7 @@
 
 #include <QSettings>
 
-#include <auto_ptr.h>
+//#include <auto_ptr.h>
 
 using namespace QKeychain;
 
@@ -269,4 +269,3 @@ void WritePasswordJobPrivate::kwalletWriteFinished( QDBusPendingCallWatcher* wat
     q->emitFinished();
 }
 
-#include "keychain_dbus_p.moc"

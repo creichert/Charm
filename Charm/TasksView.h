@@ -17,7 +17,7 @@ class TasksViewDelegate;
 class StatusBarWidget;
 class QToolBar;
 class QToolButton;
-class QButton;
+class QPushButton;
 class QTreeView;
 
 class TasksView : public QWidget,
@@ -78,8 +78,8 @@ private:
     QAction m_actionExpandTree;
     QAction m_actionCollapseTree;
     StatusBarWidget* m_statusBarWidget;
-    QButton* m_showCurrentOnly;
-    QButton* m_showSubscribedOnly;
+    QPushButton* m_showCurrentOnly;
+    QPushButton* m_showSubscribedOnly;
     QTreeView* m_treeView;
 };
 

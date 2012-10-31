@@ -103,4 +103,3 @@ bool UploadTimesheetJob::handle(QNetworkReply *reply)
     return true;
 }
 
-#include "UploadTimesheetJob.moc"

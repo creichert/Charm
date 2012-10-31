@@ -40,4 +40,3 @@ QString TaskIdDialog::taskName() const
     return m_ui.taskName->text();
 }
 
-#include "TaskIdDialog.moc"

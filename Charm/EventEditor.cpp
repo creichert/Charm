@@ -251,5 +251,4 @@ void EventEditor::endToNowButtonClicked()
     updateValues();
 }
 
-#include "EventEditor.moc"
 

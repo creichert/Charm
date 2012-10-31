@@ -15,10 +15,10 @@ class OpeningScene : public QWidget
 public:
     explicit OpeningScene( QWidget* parent = 0 );
 
-    void resizeEvent( QResizeEvent* );
+    //void resizeEvent( QResizeEvent* );
 
 private slots:
-    void slotAnimate( int );
+    //void slotAnimate( int );
 
 private:
     QGraphicsScene* m_scene;

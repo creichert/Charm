@@ -22,7 +22,6 @@
 #include <Core/CharmConstants.h>
 #include <Core/CharmExceptions.h>
 #include <Core/SqLiteStorage.h>
-#include <CharmCMake.h>
 
 #include "ViewHelpers.h"
 #include "Data.h"
@@ -750,4 +749,3 @@ void Application::commitData( QSessionManager & manager )
     // our saving of the "visible" state later on in saveData.
 }
 
-#include "Application.moc"

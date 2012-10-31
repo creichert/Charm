@@ -96,4 +96,3 @@ void ModelConnector::slotSysTrayIconUpdate()
     }
 }
 
-#include "ModelConnector.moc"

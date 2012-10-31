@@ -53,4 +53,3 @@ void EventWindow::restore()
     show();
 }
 
-#include "EventWindow.moc"

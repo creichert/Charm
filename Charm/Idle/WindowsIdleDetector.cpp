@@ -34,4 +34,3 @@ void WindowsIdleDetector::timeout() {
                               QDateTime::currentDateTime() ) );
 }
 
-#include "WindowsIdleDetector.moc"

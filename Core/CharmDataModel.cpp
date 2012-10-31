@@ -730,4 +730,3 @@ CharmDataModel* CharmDataModel::clone() const
     return c;
 }
 
-#include "CharmDataModel.moc"

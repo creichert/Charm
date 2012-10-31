@@ -26,6 +26,5 @@ void IdleWidget::resizeEvent( QResizeEvent* )
     }
 }
 
-#include "IdleWidget.moc"
 
 

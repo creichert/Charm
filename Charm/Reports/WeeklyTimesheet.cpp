@@ -21,9 +21,7 @@
 #include "DateEntrySyncer.h"
 #include "HttpClient/UploadTimesheetJob.h"
 
-#include "CharmCMake.h"
-
-#include "CharmCMake.h"
+//#include "CharmCMake.h"
 
 #include "ui_WeeklyTimesheetConfigurationDialog.h"
 
@@ -770,4 +768,3 @@ void WeeklyTimeSheetReport::slotTimesheetUploaded(HttpJob* client) {
         QMessageBox::information(this, tr("Timesheet Uploaded"), tr("Your timesheet was successfully uploaded."));
 }
 
-#include "WeeklyTimesheet.moc"

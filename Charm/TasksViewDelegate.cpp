@@ -174,5 +174,3 @@ TasksViewDelegate::Layout TasksViewDelegate::doLayout( const QStyleOptionViewIte
     return layout;
 }
 
-#include "TasksViewDelegate.moc"
-

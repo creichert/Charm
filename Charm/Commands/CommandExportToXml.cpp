@@ -54,4 +54,3 @@ bool CommandExportToXml::finalize()
     return true;
 }
 
-#include "CommandExportToXml.moc"

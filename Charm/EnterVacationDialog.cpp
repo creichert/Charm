@@ -190,4 +190,3 @@ EventList EnterVacationDialog::events() const
     return m_events;
 }
 
-#include "EnterVacationDialog.moc"

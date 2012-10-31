@@ -45,6 +45,5 @@ void CommandModifyEvent::eventIdChanged(int oid, int nid)
     }
 }
 
-#include "CommandModifyEvent.moc"
 
 

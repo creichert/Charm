@@ -38,4 +38,3 @@ bool CommandDeleteTask::finalize()
     return m_success;
 }
 
-#include "CommandDeleteTask.moc"

@@ -524,4 +524,3 @@ void TimeTrackingWindow::importTasksFromFile( const QString &filename )
     }
 }
 
-#include "TimeTrackingWindow.moc"

@@ -304,4 +304,3 @@ void HttpJob::setParentWidget(QWidget* pw)
     m_parentWidget = pw;
 }
 
-#include "HttpJob.moc"

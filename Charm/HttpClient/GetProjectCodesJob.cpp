@@ -63,4 +63,3 @@ void GetProjectCodesJob::setDownloadUrl(const QUrl& url)
 }
 
 
-#include "GetProjectCodesJob.moc"

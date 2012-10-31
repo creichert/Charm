@@ -126,4 +126,3 @@ Qt::ToolButtonStyle CharmPreferences::toolButtonStyle() const
     return Qt::ToolButtonIconOnly;
 }
 
-#include "CharmPreferences.moc"

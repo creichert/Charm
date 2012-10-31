@@ -12,6 +12,7 @@
 #include <QToolButton>
 #include <QCheckBox>
 #include <QTreeView>
+#include <QPushButton>
 
 #include "Data.h"
 #include "Core/Task.h"
@@ -46,8 +47,8 @@ TasksView::TasksView( QToolBar* toolBar, QWidget* parent )
     , m_actionDeleteTask( this )
     , m_actionExpandTree( this )
     , m_actionCollapseTree( this )
-    , m_showCurrentOnly( new QButton( toolBar, QButton::Recessed ) )
-    , m_showSubscribedOnly( new QButton( toolBar, QButton::Recessed ) )
+    , m_showCurrentOnly( new QPushButton( toolBar ) )
+    , m_showSubscribedOnly( new QPushButton( toolBar ) )
     , m_treeView( new QTreeView( this ) )
 {
     QVBoxLayout* layout = new QVBoxLayout( this );
@@ -123,10 +124,10 @@ TasksView::TasksView( QToolBar* toolBar, QWidget* parent )
     stretch->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Fixed );
     toolBar->addWidget( stretch );
 
-    QSearchField* searchField = new QSearchField( this );
-    connect( searchField, SIGNAL( textChanged( const QString& ) ),
-             SLOT( slotFiltertextChanged( const QString& ) ) );
-    toolBar->addWidget( searchField );
+    //QSearchField* searchField = new QSearchField( this );
+    //connect( searchField, SIGNAL( textChanged( const QString& ) ),
+    //         SLOT( slotFiltertextChanged( const QString& ) ) );
+    //toolBar->addWidget( searchField );
 
     m_treeView->setEditTriggers(QAbstractItemView::EditKeyPressed);
     m_treeView->setExpandsOnDoubleClick(false);
@@ -447,4 +448,3 @@ void TasksView::configureUi()
      }
  }
 
-#include "TasksView.moc"

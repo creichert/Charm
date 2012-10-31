@@ -8,8 +8,8 @@
  *****************************************************************************/
 #include "keychain_p.h"
 
-#include <CoreFoundation/CoreFoundation.h>
-#include <Security/Security.h>
+//#include <CoreFoundation/CoreFoundation.h>
+//#include <Security/Security.h>
 #include <QDebug>
 
 using namespace QKeychain;

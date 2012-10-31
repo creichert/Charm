@@ -14,7 +14,7 @@ public:
     void dockIconClickEvent();
 
 private slots:
-    void handleStateChange( State state ) const;
+    //void handleStateChange( State state ) const;
 
 private:
     static QList< QShortcut* > shortcuts( QWidget* parent );

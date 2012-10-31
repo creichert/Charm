@@ -68,4 +68,3 @@ void DateEntrySyncer::dateSelectionChanged()
     }
 }
 
-#include "DateEntrySyncer.moc"

@@ -131,4 +131,3 @@ void DateChangeWatcher::slotTimeout()
     emit dateChanged();
 }
 
-#include "TimeSpans.moc"

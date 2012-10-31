@@ -97,4 +97,3 @@ void CommandMakeEvent::eventIdChanged(int oid, int nid)
         m_event.setId(nid);
 }
 
-#include "CommandMakeEvent.moc"

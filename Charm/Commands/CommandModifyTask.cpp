@@ -40,5 +40,4 @@ bool CommandModifyTask::finalize()
     return m_success;
 }
 
-#include "CommandModifyTask.moc"
 

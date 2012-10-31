@@ -16,9 +16,9 @@
 
 #if defined(Q_OS_UNIX) && !defined(Q_WS_MAC)
 
-#include <QDBusPendingCallWatcher>
-
-#include "kwallet_interface.h"
+//#include <QDBusPendingCallWatcher>
+//
+//#include "kwallet_interface.h"
 #else
 
 class QDBusPendingCallWatcher;
@@ -64,14 +64,14 @@ public:
     DataType dataType;
 
 #if defined(Q_OS_UNIX) && !defined(Q_WS_MAC)
-    org::kde::KWallet* iface;
-    friend class QKeychain::JobExecutor;
-    void scheduledStart();
-
-private Q_SLOTS:
-    void kwalletOpenFinished( QDBusPendingCallWatcher* watcher );
-    void kwalletEntryTypeFinished( QDBusPendingCallWatcher* watcher );
-    void kwalletReadFinished( QDBusPendingCallWatcher* watcher );
+//    org::kde::KWallet* iface;
+//    friend class QKeychain::JobExecutor;
+//    void scheduledStart();
+//
+//private Q_SLOTS:
+//    void kwalletOpenFinished( QDBusPendingCallWatcher* watcher );
+//    void kwalletEntryTypeFinished( QDBusPendingCallWatcher* watcher );
+//    void kwalletReadFinished( QDBusPendingCallWatcher* watcher );
 #else //moc's too dumb to respect above macros, so just define empty slot implementations
 private Q_SLOTS:
     void kwalletOpenFinished( QDBusPendingCallWatcher* ) {}
@@ -98,13 +98,13 @@ public:
     QString textData;
 
 #if defined(Q_OS_UNIX) && !defined(Q_WS_MAC)
-    org::kde::KWallet* iface;
-    friend class QKeychain::JobExecutor;
-    void scheduledStart();
-
-private Q_SLOTS:
-    void kwalletOpenFinished( QDBusPendingCallWatcher* watcher );
-    void kwalletWriteFinished( QDBusPendingCallWatcher* watcher );
+//    org::kde::KWallet* iface;
+//    friend class QKeychain::JobExecutor;
+//    void scheduledStart();
+//
+//private Q_SLOTS:
+//    void kwalletOpenFinished( QDBusPendingCallWatcher* watcher );
+//    void kwalletWriteFinished( QDBusPendingCallWatcher* watcher );
 #else
 private Q_SLOTS:
     void kwalletOpenFinished( QDBusPendingCallWatcher* ) {}

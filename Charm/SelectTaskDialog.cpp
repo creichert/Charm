@@ -79,7 +79,7 @@ SelectTaskDialog::SelectTaskDialog( QWidget* parent )
         resize( settings.value( MetaKey_MainWindowGeometry ).toSize() );
     }
 
-    m_ui->filter->setFocus();
+    //m_ui->filter->setFocus();
 }
 
 SelectTaskDialog::~SelectTaskDialog()
@@ -185,5 +185,4 @@ void SelectTaskDialog::slotAccepted()
     }
 }
 
-#include "SelectTaskDialog.moc"
 

@@ -2,7 +2,7 @@
 #include <QDebug>
 
 #include "Core/Configuration.h"
-#include "CharmCMake.h"
+//#include "CharmCMake.h"
 
 #include "IdleDetector.h"
 #include "MacIdleDetector.h"
@@ -107,4 +107,3 @@ void IdleDetector::clear()
     m_idlePeriods.clear();
 }
 
-#include "IdleDetector.moc"

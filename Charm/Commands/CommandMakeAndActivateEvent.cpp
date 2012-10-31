@@ -47,4 +47,3 @@ bool CommandMakeAndActivateEvent::finalize()
     }
 }
 
-#include "CommandMakeAndActivateEvent.moc"

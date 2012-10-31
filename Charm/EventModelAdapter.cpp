@@ -130,4 +130,3 @@ QModelIndex EventModelAdapter::indexForEvent( const Event& event ) const
     }
 }
 
-#include "EventModelAdapter.moc"

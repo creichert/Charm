@@ -1,7 +1,6 @@
 #include "CharmAboutDialog.h"
 #include "ui_CharmAboutDialog.h"
 
-#include <CharmCMake.h>
 
 CharmAboutDialog::CharmAboutDialog( QWidget* parent )
     : QDialog( parent )
@@ -18,4 +17,3 @@ CharmAboutDialog::~CharmAboutDialog()
     delete m_ui; m_ui = 0;
 }
 
-#include "CharmAboutDialog.moc"

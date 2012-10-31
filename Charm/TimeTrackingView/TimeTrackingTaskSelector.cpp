@@ -290,4 +290,3 @@ void TimeTrackingTaskSelector::slotManuallySelectTask()
 }
 
 
-#include "TimeTrackingTaskSelector.moc"

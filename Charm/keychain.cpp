@@ -106,7 +106,7 @@ void ReadPasswordJob::setKey( const QString& key ) {
 }
 
 void ReadPasswordJob::doStart() {
-    d->doStart();
+    //d->doStart();
 }
 
 WritePasswordJob::WritePasswordJob( const QString& service, QObject* parent )
@@ -137,7 +137,7 @@ void WritePasswordJob::setTextData( const QString& data ) {
 }
 
 void WritePasswordJob::doStart() {
-    d->doStart();
+    //d->doStart();
 }
 
 DeletePasswordJob::DeletePasswordJob( const QString& service, QObject* parent )
@@ -172,5 +172,3 @@ void DeletePasswordJobPrivate::jobFinished( Job* job ) {
     q->emitFinished();
 }
 
-#include "keychain.moc"
-#include "keychain_p.moc"

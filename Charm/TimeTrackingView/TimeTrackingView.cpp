@@ -360,4 +360,3 @@ void TimeTrackingView::slotUpdateSummaries()
     setSummaries( m_summaries );
 }
 
-#include "TimeTrackingView.moc"

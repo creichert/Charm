@@ -187,4 +187,3 @@ double EventEditorDelegate::logDuration( int duration ) const
         }
 }
 
-#include "EventEditorDelegate.moc"
